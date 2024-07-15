@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Flowerpedia</string>
+    <string name="flower_name">Flower Name</string>
+    <string name="flower_image">flower image</string>
 </resources>
