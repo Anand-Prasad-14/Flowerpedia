@@ -27,6 +27,7 @@ class FlowerViewModel : ViewModel() {
             override fun onResponse(call: Call<List<Flower>>, response: Response<List<Flower>>) {
                 if (response.isSuccessful) {
                     _flowers.value = response.body()
+                    Log.d("Flower", "Data fetched: ${response.body()}")
                 } else {
                     // Handle the case where the response is not successful
                     _error.value = "ERROR: ${response.message()}"
