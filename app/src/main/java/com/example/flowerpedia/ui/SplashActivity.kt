@@ -9,7 +9,6 @@ import android.os.Handler
 import android.os.Looper
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.widget.ImageView
-import com.example.flowerpedia.MainActivity
 import com.example.flowerpedia.R
 
 class SplashActivity : AppCompatActivity() {
